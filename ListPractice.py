@@ -13,3 +13,4 @@ while(index<=totalItem):
     index = index+1
 
 print("list of items",items1)
+
