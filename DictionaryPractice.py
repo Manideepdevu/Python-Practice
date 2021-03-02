@@ -10,3 +10,10 @@ for current in enumerate(iterate):
     studentList.append(student)
 
 print(studentList)
+
+nameToFind = input("input the name to find the age")
+
+for i,student in enumerate(studentList):
+    if studentList[i]['name'] == nameToFind:
+        print("age of the student",nameToFind,studentList[i]['age'])
+        break
